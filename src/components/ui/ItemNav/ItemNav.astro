@@ -1,0 +1,7 @@
+---
+const menu = ['Home', 'About', 'Services', 'Help'];
+// const { 'Home', 'About', 'Services', 'Help' } = Astro.props;
+---
+{ 
+  menu.map(element => <li><a href="#">{element}</a></li>) 
+}
